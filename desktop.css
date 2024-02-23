@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {font-size: 62.5%;
+    
+    }
+
+
+:root {
+    --h1primarycolor: hsl(0, 2%, 20%);
+    --h2primarycolor: hsl(14, 45%, 36%);
+    --h4secolor: hsl(332, 54%, 45%);
+    --pcolor: hsl(0, 0%, 31%);
+}
+
+strong {
+    color: var(--pcolor);
+}
+
+h1, h2, h4 { font-family: young serif;
+}
+
+h1 {
+    color: var(--h1primarycolor)
+}
+
+h2 {
+    color: var(--h2primarycolor);
+}
+
+h4 {
+    color: var(--h4secolor);
+    margin-left: 8px;
+}
+
+p {
+    color: var(--pcolor);
+}
+
+p, li {
+    font-family: outfit;
+}
+
+ul li {
+    margin-left: 14px;
+    
+    
+}
+
+
+
+.omelette {
+    width: 325px;
+    border-radius: 3px;
+}
+
+.linea {
+    border-top: 1px solid rgb(235, 235, 235);
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+  .linea2 {
+    border-top: 1px solid rgb(235, 235, 235);
+    height: 2px;
+    padding: 0;
+    margin: -5px auto 0 auto;
+  }
+
+  
+  
+  @media (min-width: 320px)
+
+  {
+  
+    
+
+    .main-box {
+        background-color: white;
+        margin: 0;
+        height: 100%;
+        padding: 0;
+        width: 100%;
+        
+    }
+
+   
+
+.omelette {
+    width: 100%;
+}
+
+
+
+    .preptimecard {
+        background-color: rgb(255, 247, 247);
+        border-radius: 2px;
+        color: var(--h1primarycolor);
+        margin: 12px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+
+.prep-ul {
+    margin: 1px;
+    margin-left: 10px;
+    margin-bottom: 16px;
+}
+  
+  
+    .guide-li {
+        margin-left: 10px;
+    }
+
+
+    .nutdiv {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+  
+      
+  }
+
+
+
+
+
+  @media (min-width: 550px)
+
+  {
+  
+    body {
+        background-color: rgb(255, 243, 178);
+    }
+
+    .main-box {
+        position: relative;
+        margin: auto;
+        margin-top: 5%;
+    margin-bottom: 5%;
+        background-color: white;
+        padding: 30px;
+        border-radius: 7px;
+        width: 380px;
+        height: 1060px;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+
+    .preptimecard {
+        background-color: rgb(255, 247, 247);
+        border-radius: 2px;
+        color: var(--h1primarycolor);
+        margin: 12px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .preptimecard ul {
+        margin-left: 8px;
+        margin-top: auto;}
+    
+    
+       
+        
+        .titulo1 {
+            margin: 5px;
+            margin-left: 0;
+        }
+    
+    
+    .ing-li::marker {
+    
+        color: var(--h2primarycolor);
+        
+    }
+    
+    
+    .prep-li {
+        padding-bottom: 12px;
+    }
+    
+    .ing-li {
+        padding-bottom: 10px;
+    }
+    
+    .guide-li {
+        padding-bottom: 7px;
+    }
+    
+    ol li::marker {
+        color: var(--h2primarycolor);
+    }
+    
+    .Nutrition p {
+        display: block;
+        margin: auto;
+    }
+    
+    .nutdiv {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    
+    .nut {
+        color: var(--h2primarycolor);
+    }
+  
+  
+  }
+  
+
+
+ 
+
+
+
